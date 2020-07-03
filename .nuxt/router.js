@@ -24,7 +24,7 @@ Vue.use(Router)
 
 export const routerOptions = {
   mode: 'history',
-  base: decodeURI('/'),
+  base: decodeURI('/blog-nuxt/'),
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior,

@@ -38,6 +38,5 @@ export default {
   &.nuxt-link-active {
     color: #4165de;
   }
-	
 }
 </style>
