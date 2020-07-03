@@ -2,7 +2,7 @@ User-agent: *
 Disallow: /admin/
 Disallow: /*.pdf
 Disallow: /*.doc
-Disallow: /*?*
+Disallow: /*?* 
 Sitemap: sitehost/sitemap.xml
 
 User-agent: Googlebot
