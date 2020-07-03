@@ -3,7 +3,6 @@
 	:postEdit="post"
   	@submit="onSubmit" />
 </template>
-
 <script>
 import axios from 'axios'
 import newPostForm from "@/components/Admin/NewPostForm.vue"
