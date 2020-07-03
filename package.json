@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "My breathtaking Nuxt.js project",
+  "author": "Baranka",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/google-analytics": "^2.3.0",
+    "@nuxtjs/yandex-metrika": "^1.0.3",
+    "axios": "^0.19.2",
+    "js-cookie": "^2.2.1",
+    "nuxt": "^2.0.0",
+    "showdown": "^1.9.1",
+    "vue-codemirror": "^4.0.6"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
+  }
+}
