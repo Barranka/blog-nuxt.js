@@ -18,7 +18,7 @@ export default {
     let title = this.post.title,
         descr = this.post.descr,
         img = `${this.post.img}`, // site.com/${this.post.img}
-        type = "site"
+        type = "article"
 
     return {
       title: title,

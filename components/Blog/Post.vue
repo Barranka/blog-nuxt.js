@@ -3,7 +3,7 @@
     <div class="container">
       <!-- header -->
       <div class="post-header">
-        <img :src="post.img" :alt="post.title" />
+        <img :src="`$router.options.base${post.img}`" :alt="post.title" />
         <h1 class="title">{{post.title}}</h1>
         <p>{{ post.descr }}</p>
       </div>

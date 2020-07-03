@@ -1,6 +1,7 @@
 
 export default {
   mode: 'universal',
+  //mode: 'spa',
   /*
   ** Headers of the page
   */
@@ -61,14 +62,17 @@ export default {
     //   tracklinks: true,
     // }]
   ],
+  router: {
+    base: process.env.NODE_ENV === 'production' ? '/blog-nuxt/' : '/'
+  },
   /*
   ** Build configuration
   */
   build: {
-    // vendor: [
-    //   'vue',
-    //   'axios'
-    // ]
+    vendor: [
+      'vue',
+      'axios'
+    ],
     /*
     ** You can extend webpack config here
     */
