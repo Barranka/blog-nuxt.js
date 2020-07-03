@@ -35,7 +35,7 @@ export default {
   color: #333333;
 }
 .navbar-link {
-  &.nuxt-link-exact-active {
+  &.nuxt-link-active {
     color: #4165de;
   }
 	
